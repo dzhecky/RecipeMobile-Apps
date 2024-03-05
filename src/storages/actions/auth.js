@@ -3,7 +3,7 @@ import axios from 'axios';
 import AlertFailed from '../../components/AlertConfirmation/AlertFailed';
 import AlertSuccess from '../../components/AlertConfirmation/AlertSucsses';
 
-const base_url = 'https://real-rose-hatchling-slip.cyclic.app';
+const base_url = 'https://naughty-woolens-yak.cyclic.app';
 
 export const loginAction = (email, password) => async dispatch => {
   let loginUrl = '/auth/login';

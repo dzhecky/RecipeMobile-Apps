@@ -42,7 +42,7 @@ const ShowComments = ({route, navigation}) => {
   const getDetailRecipe = async () => {
     try {
       const res = await axios.get(
-        `https://easy-gray-alligator-tutu.cyclic.app/recipe/detail/${id_recipe}`,
+        `https://naughty-woolens-yak.cyclic.app/recipe/detail/${id_recipe}`,
         {
           headers: {
             token,

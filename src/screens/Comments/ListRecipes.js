@@ -28,7 +28,7 @@ const ListRecipes = ({navigation}) => {
   const getRecipes = async () => {
     try {
       const res = await axios.get(
-        'https://easy-gray-alligator-tutu.cyclic.app/recipe?limit=100',
+        'https://naughty-woolens-yak.cyclic.app/recipe?limit=100',
       );
       setResult(res.data.data);
     } catch (error) {
@@ -39,7 +39,7 @@ const ListRecipes = ({navigation}) => {
   const getSearchRecipes = async () => {
     try {
       const res = await axios.get(
-        `https://easy-gray-alligator-tutu.cyclic.app/recipe?search=${keyword}`,
+        `https://naughty-woolens-yak.cyclic.app/recipe?search=${keyword}`,
       );
       setResult(res.data.data);
     } catch (error) {

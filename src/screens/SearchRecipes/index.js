@@ -20,7 +20,7 @@ const SearchRecipes = ({navigation}) => {
   const getRecipes = async () => {
     try {
       const res = await axios.get(
-        `https://easy-gray-alligator-tutu.cyclic.app/recipe?search=${keyword}&limit=100`,
+        `https://naughty-woolens-yak.cyclic.app/recipe?search=${keyword}&limit=100`,
       );
       setResult(res.data.data);
       setKeyword('');

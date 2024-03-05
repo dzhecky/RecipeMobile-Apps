@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import axios from 'axios';
 
-const base_url = 'https://easy-gray-alligator-tutu.cyclic.app';
+const base_url = 'https://naughty-woolens-yak.cyclic.app';
 
 export const getLikedRecipesAction = () => async (dispatch, getState) => {
   let likedRecipesUrl = '/event/liked';

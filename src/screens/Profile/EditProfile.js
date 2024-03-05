@@ -121,7 +121,7 @@ const EditProfile = ({navigation}) => {
   const getDetailProfile = async () => {
     try {
       const res = await axios.get(
-        `https://real-rose-hatchling-slip.cyclic.app/users/${id_user}`,
+        `https://naughty-woolens-yak.cyclic.app/users/${id_user}`,
         {
           headers: {
             token,

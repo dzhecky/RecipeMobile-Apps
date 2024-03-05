@@ -31,7 +31,7 @@ const MyRecipes = ({navigation}) => {
   const getMyRecipes = async () => {
     try {
       const res = await axios.get(
-        'https://real-rose-hatchling-slip.cyclic.app/recipe/show/myrecipes?limit=100',
+        'https://naughty-woolens-yak.cyclic.app/recipe/show/myrecipes?limit=100',
         {
           headers: {
             token,
@@ -85,7 +85,7 @@ const MyRecipes = ({navigation}) => {
                       action: async function () {
                         try {
                           const res = await axios.delete(
-                            `https://real-rose-hatchling-slip.cyclic.app/recipe/${items.id_recipe}`,
+                            `https://naughty-woolens-yak.cyclic.app/recipe/${items.id_recipe}`,
                             {
                               headers: {
                                 token,

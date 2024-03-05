@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import axios from 'axios';
 
-const base_url = 'https://easy-gray-alligator-tutu.cyclic.app';
+const base_url = 'https://naughty-woolens-yak.cyclic.app';
 
 export const getComments = id_recipe => async (dispatch, getState) => {
   let commentRecipesUrl = `/comments/${id_recipe}?limit=100`;

@@ -20,7 +20,7 @@ const Dessert = ({navigation}) => {
   const getDessert = async () => {
     try {
       const res = await axios.get(
-        'https://easy-gray-alligator-tutu.cyclic.app/recipe?category=2&limit=100',
+        'https://naughty-woolens-yak.cyclic.app/recipe?category=2&limit=100',
       );
       setDataDessert(res.data.data);
     } catch (error) {

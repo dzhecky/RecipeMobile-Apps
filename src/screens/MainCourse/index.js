@@ -20,7 +20,7 @@ const MainCourse = ({navigation}) => {
   const getMainCourse = async () => {
     try {
       const res = await axios.get(
-        'https://easy-gray-alligator-tutu.cyclic.app/recipe?category=1&limit=100',
+        'https://naughty-woolens-yak.cyclic.app/recipe?category=1&limit=100',
       );
       setDataMainCourse(res.data.data);
     } catch (error) {

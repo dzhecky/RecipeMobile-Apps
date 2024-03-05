@@ -59,7 +59,7 @@ const EditProfileScreen = () => {
   const getDetailProfile = async () => {
     try {
       const res = await axios.get(
-        `https://easy-gray-alligator-tutu.cyclic.app/user/${id_user}`,
+        `https://naughty-woolens-yak.cyclic.app/user/${id_user}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

@@ -36,7 +36,7 @@ const Home = ({navigation}) => {
   const getPopularRecipes = async () => {
     try {
       const res = await axios.get(
-        'https://real-rose-hatchling-slip.cyclic.app/recipe?popular=popular',
+        'https://naughty-woolens-yak.cyclic.app/recipe?popular=popular',
       );
       setPopularRecipes(res.data.data);
     } catch (error) {
@@ -47,7 +47,7 @@ const Home = ({navigation}) => {
   const getPopularForYou = async () => {
     try {
       const res = await axios.get(
-        'https://real-rose-hatchling-slip.cyclic.app/recipe',
+        'https://naughty-woolens-yak.cyclic.app/recipe',
       );
       setPopularForYou(res.data.data);
     } catch (error) {

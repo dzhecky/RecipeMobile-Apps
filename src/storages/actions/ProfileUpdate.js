@@ -9,7 +9,7 @@ export const updateProfile =
       let token = await getState().auth.data.token;
 
       const response = await axios.patch(
-        `https://real-rose-hatchling-slip.cyclic.app/user/update-user/${id_user}`,
+        `https://naughty-woolens-yak.cyclic.app/user/update-user/${id_user}`,
         bodyData,
         {
           headers: {

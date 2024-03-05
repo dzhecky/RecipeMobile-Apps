@@ -48,7 +48,7 @@ const EditRecipeScreen = ({route, navigation}) => {
     const fetchRecipeData = async () => {
       try {
         const response = await axios.get(
-          `https://easy-gray-alligator-tutu.cyclic.app/recipe/${recipeId}`,
+          `https://naughty-woolens-yak.cyclic.app/recipe/${recipeId}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -94,7 +94,7 @@ const EditRecipeScreen = ({route, navigation}) => {
       }
 
       const response = await axios.patch(
-        `https://easy-gray-alligator-tutu.cyclic.app/recipe/update-recipe/${recipeId}`,
+        `https://naughty-woolens-yak.cyclic.app/recipe/update-recipe/${recipeId}`,
         formData,
         {
           headers: {

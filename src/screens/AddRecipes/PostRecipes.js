@@ -65,7 +65,7 @@ const PostRecipes = ({navigation}) => {
   const getCategory = async () => {
     try {
       const res = await axios.get(
-        'https://real-rose-hatchling-slip.cyclic.app/category',
+        'https://naughty-woolens-yak.cyclic.app/category',
         {
           headers: {
             token,
@@ -171,7 +171,7 @@ const PostRecipes = ({navigation}) => {
     bodyData.append('id_category', idCategory);
     try {
       const res = await axios.post(
-        'https://real-rose-hatchling-slip.cyclic.app/recipe',
+        'https://naughty-woolens-yak.cyclic.app/recipe',
         bodyData,
         {
           headers: {

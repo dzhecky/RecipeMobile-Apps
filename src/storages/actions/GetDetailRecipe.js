@@ -7,7 +7,7 @@ export const getRecipeDetail = recipeId => async (dispatch, getState) => {
     let token = await getState().auth.data.token;
 
     const response = await axios.get(
-      `https://easy-gray-alligator-tutu.cyclic.app/recipe/${recipeId}`,
+      `https://naughty-woolens-yak.cyclic.app/recipe/${recipeId}`,
       {
         headers: {
           Authorization: `Bearer ${token}`,

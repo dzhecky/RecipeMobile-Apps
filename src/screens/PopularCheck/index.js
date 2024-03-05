@@ -20,7 +20,7 @@ const PopularCheck = ({navigation}) => {
   const getPopularRecipes = async () => {
     try {
       const res = await axios.get(
-        'https://easy-gray-alligator-tutu.cyclic.app/recipe?popular=popular&limit=100',
+        'https://naughty-woolens-yak.cyclic.app/recipe?popular=popular&limit=100',
       );
       setPopularRecipes(res.data.data);
     } catch (error) {

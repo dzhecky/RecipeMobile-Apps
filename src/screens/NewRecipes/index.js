@@ -20,7 +20,7 @@ const NewRecipes = ({navigation}) => {
   const getNewRecipes = async () => {
     try {
       const res = await axios.get(
-        'https://easy-gray-alligator-tutu.cyclic.app/recipe?limit=100',
+        'https://naughty-woolens-yak.cyclic.app/recipe?limit=100',
       );
       setNewRecipes(res.data.data);
     } catch (error) {

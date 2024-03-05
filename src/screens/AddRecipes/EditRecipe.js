@@ -67,7 +67,7 @@ const EditRecipe = ({route, navigation}) => {
   const getCategory = async () => {
     try {
       const res = await axios.get(
-        'https://real-rose-hatchling-slip.cyclic.app/category',
+        'https://naughty-woolens-yak.cyclic.app/category',
         {
           headers: {
             token,
@@ -88,7 +88,7 @@ const EditRecipe = ({route, navigation}) => {
   const getDetailRecipe = async () => {
     try {
       const res = await axios.get(
-        `https://real-rose-hatchling-slip.cyclic.app/recipe/detail/${id_recipe}`,
+        `https://naughty-woolens-yak.cyclic.app/recipe/detail/${id_recipe}`,
         {
           headers: {
             token,
@@ -180,7 +180,7 @@ const EditRecipe = ({route, navigation}) => {
     bodyData.append('id_category', idCategory);
     try {
       const res = await axios.put(
-        `https://real-rose-hatchling-slip.cyclic.app/recipe/${id_recipe}`,
+        `https://naughty-woolens-yak.cyclic.app/recipe/${id_recipe}`,
         bodyData,
         {
           headers: {

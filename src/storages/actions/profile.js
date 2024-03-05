@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import axios from 'axios';
 
-const base_url = 'https://real-rose-hatchling-slip.cyclic.app';
+const base_url = 'https://naughty-woolens-yak.cyclic.app';
 
 export const putPofile =
   (id_user, bodyData, navigation) => async (dispatch, getState) => {
